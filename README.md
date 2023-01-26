@@ -5,7 +5,7 @@
 Contains three separate scripts for scraping, and then processing, disease data from the web.
 
 - `scraper_script.py` - scrapes a list of diseases, and then their corresponding details (such as symptoms) and saves it to a csv file.
-- `html_transform_script.py` - Formats the scraped (mainly) HTML data so that it's easier to work with (splitting descriptions into primary and secondary, extracting symptoms -- in human readable form (i.e. 'raw_symptoms', just the way they were scraped) and in space-separated form, stitched together after removing vague/indeterministic symptoms to allow for easy generating of vector embeddings).
+- `html_transform_script.py` - Formats the scraped (mainly) HTML data so that it's easier to work with (splitting descriptions into primary and secondary, extracting symptoms -- in human readable form (i.e. 'raw_symptoms', just the way they were scraped) and in comma-separated form, stitched together after removing vague/indeterministic symptoms to allow for easy generating of vector embeddings).
 - `embedder_script.py` - Generates vector embeddings for the symptoms, and saves them to a csv file (diseases__encoded.csv).
 
 ## But Nithin, why do you have the exact same code in the form of notebooks and scripts?
