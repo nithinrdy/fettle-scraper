@@ -19,7 +19,7 @@ The busy (read _lazy_) person that I am, I decided to export the notebooks as sc
 ## Usage
 
 1. Clone the repo.
-2. Make sure you have python installed (preferably, set up a virtual environment for this project while you're at it).
+2. Make sure you have python installed (set up a virtual environment for this project).
 3. Make the script executable: `chmod +x generate_csv.sh`
 4. Run the script: `./generate_csv.sh`
 5. Wait a decade or so (depending on your internet connection).
